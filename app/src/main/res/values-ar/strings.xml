@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">Tube Chat Messenger</string>
+
+    <!--hint string-->
+    <string name="em_hint_account">الحساب</string>
+    <string name="em_hint_dont_have_account">ليس لديك حساب؟</string>
+
+    <string name="em_hint_already_have_account">لديك بالفعل حساب!</string>
+
+    <string name="em_hint_input_not_null">هذا الحقل لا يجب ان يكون فارغا</string>
+    <string name="em_hint_loading">برجاء الانتظار……</string>
+    <string name="em_hint_password">كلمه المرور</string>
+
+    <string name="em_hint_sign_in">ادخل حسابك لتسجيل الدخول حسابك لا يمكن ان يحتوي علي  \'\@\'!</string>
+    <string name="em_hint_sign_up">أدخل الحساب الذي تريد تسجيله، والحساب يمكن أن يكون رقم الهاتف،
+         أو أي طول من السلسلة يجب أن تكون جميع الأحرف الصغيرة أو الأرقام،
+         بالإضافة إلى (.) (_) (-) لا يمكن أن تحتوي على أحرف خاصة أخرى،
+         لا يمكن أن يكون حساب البريد الإلكتروني</string>
+
+    <!--call-->
+    <string name="em_call_voice">اتصال صوتي </string>
+
+    <string name="em_call_video">اتصال فيديو</string>
+
+    <string name="em_call_accepted">تم توصيل المكالمه</string>
+
+    <string name="em_call_busy">الخط مشغول</string>
+
+    <string name="em_call_cancel">تم الغاء المكالمه</string>
+
+    <string name="em_call_cancel_incoming_call">تم الغاء المكالمه</string>
+
+    <string name="em_call_connecting">جار الاتصال</string>
+
+    <string name="em_call_connected">مكالمه وارده </string>
+
+    <string name="em_call_connected_incoming_call">مكالمه وارده</string>
+
+    <string name="em_call_connection_fail">فشل توصيل المكالمه</string>
+
+    <string name="em_call_disconnected">تم انهاء المكالمه</string>
+
+    <string name="em_call_no_data">لا يوجد معلومات اتصال</string>
+
+    <string name="em_call_not_answer">لا يوجد استجابه</string>
+
+    <string name="em_call_no_response">لا يوجد رد</string>
+
+    <string name="em_call_not_online">اون لاين</string>
+
+    <string name="em_call_network_unstable">الشبكه غير مستقره</string>
+
+    <string name="em_call_network_normal">الشبكه مستقره</string>
+
+    <string name="em_call_reject">تم رفض المكالمه</string>
+
+    <string name="em_call_reject_incoming_call">تم الرفض</string>
+    <string name="em_call_local_sdk_version_outdated"></string>
+    <string name="em_call_remote_sdk_version_outdated"></string>
+    <string name="em_call_sdk_version_different"></string>
+
+
+
+    <string name="rta_dialog_title">قيم هذا التطبيق</string>
+    <string name="rta_dialog_message">إذا احببت هذا التطبيق أبدي ملاحظاتك ، افكارك من خلال تقييمه على سوق بلاي</string>
+    <string name="rta_dialog_ok">تقييم</string>
+    <string name="rta_dialog_cancel">لاحقا</string>
+    <string name="rta_dialog_no">لا شكرا</string>
+
+
+    <string name="em_call_video_pause">وقف بث الفيديو</string>
+    <string name="em_call_video_resume">استكمال بث الفيديو</string>
+    <string name="em_call_voice_pause">تم وقف الصوت</string>
+    <string name="em_call_voice_resume">تم تشغيل الصوت</string>
+    <string name="em_call_voice_calling">مكالمه صوتيه</string>
+    <string name="em_call_video_calling">مكالمه فيديو</string>
+    <string name="em_call_info_resolution">جوده الفيديو</string>
+    <string name="em_call_info_time_latency">معدل التاخير</string>
+    <string name="em_call_info_frame_rate">معدل نقل الفريمات</string>
+    <string name="em_call_info_lost_rate">مع فقد الفريمات</string>
+    <string name="em_call_info_local_bitrate"> </string>
+    <string name="em_call_info_remote_bitrate"> </string>
+
+    <!--sign-->
+    <string name="em_sign_in">تسجيل الدخول</string>
+    <string name="em_sign_out">تسجيل الخروج</string>
+    <string name="em_sign_up">تسجيل حساب جديد</string>
+    <string name="em_sign_up_begin">جار تسجيل حساب جديد</string>
+    <string name="em_sign_in_begin">جار تسجيل الدخول</string>
+
+    <!--Error-->
+    <string name="em_error_invalid_password">كلمه مرور غير صالحه</string>
+    <string name="em_error_invalid_username">اسم مستخدم غير صالح</string>
+    <string name="em_error_network_error">خطا بالشبكه</string>
+    <string name="em_error_illegal_argument"></string>
+    <string name="em_error_server_busy">الخادم مشغول حاليا</string>
+    <string name="em_error_server_timeout">نفذ وقت الخادم</string>
+    <string name="em_error_sign_in_failed">فشل تسجيل الدخول</string>
+    <string name="em_error_sign_up_failed">فشل التسجيل</string>
+
+
+
+    <string name="em_error_unknown_error">خطا غير معروف</string>
+    <string name="em_error_user_already_exit">هذا المستخدم موجود بالفعل</string>
+    <string name="em_error_user_authentication_failed">فشلت مصادقة المستخدم</string>
+    <string name="em_error_user_not_found">لا يوجد مستخدم</string>
+
+    <!--Contacts-->
+    <string name="em_contacts_add">اضافه صديق</string>
+    <string name="em_delete_contact">حذف صديق</string>
+    <string name="em_contacts_apply_send_success">تم الارسال</string>
+    <string name="em_contacts_apply_send_failed">تم ارسال طلب لجهه الاتصال</string>
+    <string name="em_contacts_apply">الاشعارات</string>
+    <string name="em_contacts_apply_agree">موافقه </string>
+    <string name="em_contacts_apply_reject">رفض</string>
+    <string name="em_wait">انتظر...</string>
+    <string name="em_agreed">تم القبول</string>
+    <string name="em_rejected">تم الرفض</string>
+
+    <string name="em_add_to_blacklist">اض الي قائمه المحظورين</string>
+    <string name="em_blacklist">قائمه المحظورين</string>
+    <string name="em_blacklist_unblock">ازاله الحظر</string>
+
+    <string name="em_contact_invite">دعوه صديق</string>
+    <string name="em_contact_next">القادم</string>
+    <string name="em_contact_selected">تم اختيار العضور</string>
+
+    <!--Setting Preference-->
+    <string name="em_pref_key_about">em_pref_about</string>
+    <string name="em_pref_key_notification">em_pref_notification</string>
+    <string name="em_pref_key_notification_sound">em_pref_notification_sound</string>
+    <string name="em_pref_key_notification_vibrate">em_pref_notification_vibrate</string>
+    <string name="em_pref_key_notification_display_name">em_pref_notification_name</string>
+    <string name="em_pref_key_accept_group_invite_automatically">em_pref_accept_group_invite_automatically</string>
+    <string name="em_pref_key_adaptive_video_bitrate">em_pref_adaptive_video_bitrate</string>
+    <!--Status-->
+    <string name="em_pref_on">فتح</string>
+    <string name="em_pref_off">غلق</string>
+
+    <!--About-->
+    <string name="em_pref_about">عن التطبيق</string>
+    <string name="em_pref_about_version"></string>
+
+    <!--Notification-->
+    <string name="em_pref_notification">التنبيهات</string>
+    <string name="em_pref_notification_switch">اعداد التنبيهات</string>
+    <string name="em_pref_notification_summary">اعداد التنيهات</string>
+    <string name="em_pref_notification_sound">صوت التنبيهات</string>
+    <string name="em_pref_notification_vibration">اهتزاز التنبيهات</string>
+    <string name="em_pref_notification_display_name">عرض الاسم</string>
+
+    <string name="em_pref_chat_call"></string>
+    <string name="em_pref_chat_call_summary">ضبط بعض معلومات الاتصال</string>
+    <string name="em_pref_group_invites">دعوات المجموعات</string>
+    <string name="em_pref_group_invites_summary">قبول دعوه المجموعه اليا</string>
+    <string name="em_pref_adaptive_video_bitrate">الحد الاقصي لمكالمه الفيديو</string>
+    <string name="em_pref_blocked_users">مستخدمين محظورين</string>
+
+    <string name="hello_blank_fragment"></string>
+    <string name="groups">المجموعات</string>
+
+    <!--group-->
+    <string name="em_groups">المجموعات</string>
+    <string name="em_group">مجموعه</string>
+    <string name="em_group_id">معرف المجموعه</string>
+    <string name="em_exit_group">الخروج من المجموعه</string>
+    <string name="em_ok">قبول</string>
+    <string name="em_cancel">الغاء</string>
+    <string name="em_leave_group">اترك المجموعه</string>
+    <string name="em_waiting">برجاء الانتظار...</string>
+    <string name="em_delete_group">احذف المجموعه</string>
+
+    <string name="em_group_info">معلومات المجموعه</string>
+    <string name="em_enable">تمكين</string>
+    <string name="em_disabled">تعطيل</string>
+    <string name="em_push_notification">التنبيهات</string>
+    <string name="em_public">عام</string>
+    <string name="em_private">خاص</string>
+    <string name="em_delete">احذف</string>
+    <string name="em_group_members">الاعضاء</string>
+    <string name="em_group_member">العضو</string>
+    <string name="em_group_delete_member">حذف العضو</string>
+    <string name="em_new_group">مجموعه جديده</string>
+    <string name="em_create">انشاء</string>
+    <string name="em_creating">انشاء المجموعه</string>
+    <string name="em_appear_in_group_search">هل تريد ظهورها في بحث المجموعات</string>
+    <string name="em_allow">اسمح للاعضاء بدعوه اصدقائهم</string>
+    <string name="em_freely">الانضمام إلى المجموعه بحرية</string>
+    <string name="em_public_group">مجموعات عامه</string>
+    <string name="em_invite_members">دعوه اعضاء</string>
+    <string name="em_load_public_group">تحميل المجموعه العامه</string>
+    <string name="em_join">انضم</string>
+    <string name="em_group_block_group_message">احظر رسائل هذه المجموعه</string>
+    <string name="em_group_unblock_group_message">ازله حظر رسائل هذه المجموعه</string>
+
+    <!--chatroom-->
+    <string name="em_chatrooms">الغرف</string>
+    <string name="em_chatroom_info">معلومات الغرفه</string>
+    <string name="em_chatroom_members">اعضاء الغرفه</string>
+    <string name="em_chatroom_id">معرف الغرفه</string>
+    <string name="em_chatroom_members_size">عدد الاعضاء</string>
+    <string name="em_chatroom_blacklist">الغرف المحظوره</string>
+    <string name="em_chatroom_change_name">تغيير اسم الغرفه</string>
+    <string name="em_chatroom_change_description">تغيير وصف الغرفه</string>
+    <string name="em_chatroom_destroy">احذف الغرفه</string>
+    <string name="em_chatroom_destroy_sure">هل انت متاكد من حذف الغرفه؟</string>
+
+    <!-- group detail menu -->
+
+    <string name="em_group_transfer_owner">نقل ملكيه الجروب</string>
+    <string name="em_group_clear_conversation">حذف الدردشات</string>
+    <string name="em_group_change_group_name">تغير اسم المجموعه</string>
+    <string name="em_group_change_group_desc">تغيير وصف المجموعه</string>
+    <string name="em_group_admin_list">قائمه المشرفين</string>
+    <string name="em_group_black_list">قائمه المحظورين</string>
+    <string name="em_group_mute_list">قائمه الممنوعين من الدردشه</string>
+
+
+
+
+
+    <!-- group detail menu -->
+    <string name="em_group_members_add">اضافه عضو</string>
+    <string name="em_group_admin_save">احفظ</string>
+    <string name="em_group_transfer_owner_save">احفظ</string>
+
+    <!-- group member item alert menu -->
+    <string name="em_group_member_alert_item_add_mute">كتم</string>
+    <string name="em_group_member_alert_item_add_black">اضف الي قائمه المحظورين</string>
+    <string name="em_group_member_alert_item_remove">احذف</string>
+
+    <!-- chat -->
+    <string name="chat_voice_call">مكالمه صوت </string>
+    <string name="chat_video_call">مكالمه فيديو</string>
+    <string name="chat_expand_more">اكثر</string>
+    <string name="sd_card_does_not_exist">"الكارت الميموري غير موجود القط صوره باستخدام الكاميرا"</string>
+    <string name="unable_to_get_location">لم نتمكن من جلب موقعك!</string>
+    <string name="hint_search">ابحث</string>
+    <string name="delete_conversation">احذف المحادثه</string>
+    <string name="delete_message">احذف الرساله</string>
+    <string name="chat_send">ارسل</string>
+    <string name="not_connect_to_server">لم نتمكن من الاتصال بالخادم حاول لاحقا</string>
+
+    <!-- account -->
+
+
+    <string name="account_item_name_id">المعرف الخاص بك</string>
+    <string name="account_item_name_nick">اسم الظهور</string>
+    <string name="account_title_upload_photo">رفع صوره</string>
+    <string name="account_msg_local_upload">رفع صوره</string>
+    <string name="account_msg_take_photo">القط صوره</string>
+    <string name="account_update_nick">تحديث اسم الظهور</string>
+    <string name="account_update_photo">تحديث الصوره</string>
+    <string name="account_waiting">برجاء الانتظار...</string>
+    <string name="account_set_nickname">اضف اسم الظهور</string>
+    <string name="toast_nick_not_isnull">اسم الظهور لا يمكن ان يكون فارغا!</string>
+    <string name="toast_update_photo_success">تم تحديث الصوره بنجاح!</string>
+    <string name="toast_update_photo_fail">فشل تحديث الصوره!</string>
+    <string name="toast_updatenick_success">تم تحديث اسم الظهور بنجاح!</string>
+    <string name="toast_updatenick_fail">فشل تجديث اسم الظهور!</string>
+    <string name="move_into_blacklist_success">تم النقل الي قائمه المحظورين</string>
+    <string name="move_into_blacklist_failure">فشل النقل الي قائمه المحظورين</string>
+    <string name="be_removing"></string>
+    <string name="removed_from_blacklist_fail">فشل الحذف</string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+    <!-- commons-->
+    <string name="Logoff_notification"> تنبيهات</string>
+    <string name="connect_conflict">نفس الحساب تم تسجيل دخوله من جهاز اخر</string>
+    <string name="can_not_connect_chat_server_connection">لا نستطيع الوصول الي الخادم</string>
+    <string name="current_network_unavailable">الشبكه الحاليه غير متاحه راجع معلومات اتصالك بالانترنت</string>
+    <string name="unable_to_connect">غير قادر على الاتصال بالخادم راجع الاتصال بالانترنت </string>
+    <string name="common_cancel">الغاء</string>
+    <string name="common_ok">قبول</string>
+    <string name="title_contacts">جهات الاتصال</string>
+    <string name="title_chats">الدردشات</string>
+    <string name="title_settings">الاعدادات</string>
+    <string name="em_clear_all_message">حذف كل الرسائل</string>
+    <string name="em_clear_all_message_sure">هل تريد بالتأكيد محو جميع الرسائل؟ هو لا رجعة فيه بعد تأكيد العملية!</string>
+
+</resources>
